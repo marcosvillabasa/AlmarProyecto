@@ -260,3 +260,52 @@ body{
 .main .contenedor-slider .btn-anterior i:hover,.main .contenedor-slider .btn-siguiente i:hover{
   color: #0089e0;
 }
+
+/* ------Equipo------ */
+.main .equipo {
+   background: #f3f4fa;
+   padding-top: 54px;
+   padding-bottom: 108px;
+}
+.main .equipo .integrantes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main .equipo .integrantes .persona{
+  background: #fff;
+  padding: 50px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0px 9px 32px -1px rgba(0,0,0,.2);
+  text-align: center;
+}
+.main .equipo .integrantes .persona .foto{
+  width: 70%;
+  max-width: 300px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.main .equipo .integrantes .persona .foto img{
+  width: 100%;
+  border-radius: 100%;
+}
+.main .equipo .integrantes .persona .texto h3{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #0089e0;
+}
+.main .equipo .integrantes .persona .texto h4{
+  color: #979797;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.main .equipo .integrantes .persona .texto p{
+  color: #979797;
+  font-size: 0.9;
+  font-weight: 400;
+}
+
+/* seccion informacion complementaria */
