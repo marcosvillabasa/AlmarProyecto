@@ -441,3 +441,31 @@ body{
   background-image: url("../img/formulario.jpg");
   background-size: cover;
 }
+
+/* ------pie de pagina----- */
+footer{
+  background: #f3fafa;
+  padding: 54px 0;
+  text-align: center;
+}
+
+footer .copy{
+  color: #979797;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+footer .footer-sociales a{
+  display: inline-block;
+  padding: 0 10px;
+  color: #979797;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  transition: all .3s ease;
+}
+footer .footer-sociales a:hover{
+  color: #0089e0;
+}
