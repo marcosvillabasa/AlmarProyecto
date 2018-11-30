@@ -145,3 +145,27 @@ body{
   background: #fff;
   color: #0089E0;
 }
+
+/* -----proyectos------ */
+
+.main .proyectoss{
+  background: #f3f4fa;
+  padding: 108px 0 54px 0;
+}
+.main .proyectos .contenedor .galeria-proyectos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 34px;
+  border-bottom: 1px solid #ccc;
+}
+.main .proyectos .galeria-proyectos .proyecto{
+  width: 32%;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+.main .proyectos .galeria-proyectos .proyecto img{
+  width: 100%;
+  vertical-align: top;
+}
