@@ -16,7 +16,7 @@ body{
   margin: 0 auto;;
 }
 
-/* Encabezado */
+/* =======Encabezado======= */
 .menu-desktop{
   width: 100%;
   min-height: 68px;
@@ -84,5 +84,64 @@ body{
   color: #444444;
 }
 .menu-fixed .menu-principal a:hover, .menu-fixed .top-redes a:hover{
+  color: #0089E0;
+}
+
+/* =======MAIN======= */
+
+/* BANNER PRINCIPAL */
+.main{
+  width: 100%;
+  margin-top: -68px;
+}
+
+.main .banner-principal{
+  width: 100%;
+  position: relative;
+}
+
+.main .banner-principal .banner{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/book-3713714_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main .banner-principal .texto-banner{
+  display: inline-block;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%  );
+  text-align: center;
+}
+
+.main .banner-principal .texto-banner h2{
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.main .banner-principal .texto-banner h1{
+  font-size: 6.625rem;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.main .banner-principal .texto-banner a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 20px;
+  background: #0089E0;
+  color: #fff;
+  transition: all .7s ease;
+  cursor: pointer;
+}
+.main .banner-principal .texto-banner a:hover{
+  background: #fff;
   color: #0089E0;
 }
