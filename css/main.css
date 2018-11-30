@@ -29,7 +29,6 @@ body{
   align-items: center;
   position: relative;
   z-index: 100;
-
 }
 .logo{
   display: inline-block;
@@ -62,4 +61,28 @@ body{
 /* menu movil */
 .menu-movil{
   display: none;
+}
+
+/* //menu fixed */
+.menu-fixed{
+  width: 100%;
+  min-height: 68px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+  padding: 0 36px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  transition: all .4s ease;
+  margin-top: -68px;
+}
+.menu-fixed .menu-principal a, .menu-fixed .top-redes a{
+  color: #444444;
+}
+.menu-fixed .menu-principal a:hover, .menu-fixed .top-redes a:hover{
+  color: #0089E0;
 }
