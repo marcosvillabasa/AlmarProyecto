@@ -49,8 +49,17 @@ body{
   display: inline-block;
   width: 50px;
 }
-.logo p{
-  font-family: 'Titillium Web', sans-serif;
+.menu-desktop .logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  transition: all .3s ease;
+}
+.menu-desktop .logo:hover{
+  color: #0089e0;
 }
 .menu-principal a, .top-redes a{
   display: inline-block;
@@ -118,7 +127,7 @@ body{
 .main .banner-principal .banner{
   width: 100%;
   height: 100vh;
-  background-image: url("../img/book-3713714_1920.jpg");
+  background-image: url("../img/laptop-2557571_1920.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -309,7 +318,7 @@ body{
 }
 
 /* seccion informacion complementaria */
-.main .info-extra{
+/* .main .info-extra{
   background: #191919;
   padding: 130px 0;
 
@@ -355,7 +364,11 @@ body{
   background-image: url("../img/computer-2593921_1920.jpg");
   background-position: center;
   background-size: cover;
-}
+}*/
+
+/* -------clientes---------- */
+
+
 
 /* -----contacto------- */
 .main .contacto{
@@ -468,4 +481,131 @@ footer .footer-sociales a{
 }
 footer .footer-sociales a:hover{
   color: #0089e0;
+}
+
+/* ============================ */
+/* =====MEDIA QUERIES========== */
+/* ============================ */
+
+@media screen and (max-width: 1040px) {
+
+  /* nuestro equipo */
+  .main .equipo .titulo-section{
+    margin-bottom: 60px;
+  }
+  .main .equipo .integrantes .persona{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+  .main .equipo .integrantes .persona:first-child{
+    margin-bottom: 20px;
+  }
+
+  .main .equipo .integrantes .persona .foto{
+    margin-right: 20px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  /* encabezado */
+  .menu-desktop{
+    display: none;
+  }
+  .menu-movil{
+    display: block;
+    width: 100%;
+    padding: 5px 18px;
+    background: #fff;
+    color: #444444;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  .menu-movil .barra{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+  }
+  .menu-movil .barra .logo{
+    width: 40px;
+  }
+  .menu-movil .barra a i{
+    font-size: 1.4rem;
+    color: #444444;
+  }
+
+  .menu-movil .menu-principal{
+    width: 80%;
+    display: block;
+    position: fixed;
+    top: 56px;
+    left: -100% ;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+    border-right: 1px solid rgba(204, 204, 204, 0.5);
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.2);
+    background: #fff;
+    text-align: center;
+  }
+  .menu-movil .menu-principal a{
+    display: block;
+    padding: 16px;
+    color: #444444;
+    border-bottom: 1px solid rgba(204,204,204,0.5);
+  }
+  .menu-movil .menu-principal a:hover{
+    background: #f7f7f7;
+  }
+  .menu-fixed{
+    display: none;
+  }
+  .main{
+    margin-top: 0;
+  }
+  /* sobre nosotros */
+  .main .sobre-nosotros .contenedor .titulo-section, .main .sobre-nosotros .contenedor .texto-sobre-nosotros{
+      width: 100%;
+      text-align: center;
+  }
+
+  /* contacto */
+  .main .contacto  .contenedor-formulario .formulario{
+    width: 100%;
+    text-align: center;
+  }
+  .main .contenedor .contenedor-formulario .foto{
+    display: none;
+  }
+  .main .contenedor .contenedor-formulario form input[type="text"],
+  .main .contenedor .contenedor-formulario form input[type="email"],
+  .main .contenedor .contenedor-formulario form textarea
+  {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  /* banner principal */
+  .main .banner-principal .texto-banner h1{
+    font-size: 4rem;
+  }
+  /* titulo de secciones */
+  .titulo-section h2{
+    font-size: 2.125rem;
+  }
+  /* proyectos */
+  .main .proyectos .galeria-proyectos .proyecto{
+    width: 49%;
+  }
+  /* equipo */
+  .main .equipo .integrantes .persona{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
 }
