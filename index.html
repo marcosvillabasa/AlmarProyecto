@@ -21,6 +21,13 @@
 </head>
 <body>
 
+  <!-- boton volver arriba -->
+  <div class="btn-volver-arriba" id="btn-volver-arriba">
+    <a href="" class="volver-arriba">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </div>
+
   <!-- menu-movil -->
   <div class="menu-movil">
     <div class="barra">
@@ -33,11 +40,11 @@
     </div>
 
     <nav class="menu-principal">
-      <a href="5" class="volver-arriba">INICIO</a>
-      <a href="5" class="scroll-suave">NUESTROS SERVICIOS</a>
-      <a href="5" class="scroll-sobre-nosotros">NUESTROS VALORES</a>
-      <a href="5" class="scroll-equipo">NUESTRO EQUIPO</a>
-      <a href="5" class="scroll-suave">CONTACTO</a>
+      <a href="" class="volver-arriba">INICIO</a>
+      <a href="#proyectos" class="scroll-suave">NUESTROS SERVICIOS</a>
+      <a href="#sobre-nosotros" class="scroll-sobre-nosotros">NUESTROS VALORES</a>
+      <a href="#equipo" class="scroll-equipo">NUESTRO EQUIPO</a>
+      <a href="#contacto" class="scroll-suave">CONTACTO</a>
     </nav>
 
   </div>
@@ -49,11 +56,11 @@
         <p >ALMAR</p>
       </a>
       <nav class="menu-principal">
-        <a href="5" class="volver-arriba">INICIO</a>
-        <a href="5" class="scroll-suave">NUESTROS SERVICIOS</a>
-        <a href="5" class="scroll-sobre-nosotros">NUESTROS VALORES</a>
-        <a href="5" class="scroll-equipo">NUESTRO EQUIPO</a>
-        <a href="5" class="scroll-suave">CONTACTO</a>
+        <a href="" class="volver-arriba">INICIO</a>
+        <a href="#proyectos" class="scroll-suave">NUESTROS SERVICIOS</a>
+        <a href="#sobre-nosotros" class="scroll-sobre-nosotros">NUESTROS VALORES</a>
+        <a href="#equipo" class="scroll-equipo">NUESTRO EQUIPO</a>
+        <a href="#contacto" class="scroll-suave">CONTACTO</a>
       </nav>
 
       <div class="top-redes">
@@ -71,11 +78,11 @@
         <p>ALMAR</p>
       </a>
       <nav class="menu-principal">
-        <a href="5" class="volver-arriba">INICIO</a>
-        <a href="5" class="scroll-suave">NUESTROS SERVICIOS</a>
-        <a href="5" class="scroll-sobre-nosotros">NUESTROS VALORES</a>
-        <a href="5" class="scroll-equipo">NUESTRO EQUIPO</a>
-        <a href="5" class="scroll-suave">CONTACTO</a>
+        <a href="" class="volver-arriba">INICIO</a>
+        <a href="#proyectos" class="scroll-suave">NUESTROS SERVICIOS</a>
+        <a href="#sobre-nosotros" class="scroll-sobre-nosotros">NUESTROS VALORES</a>
+        <a href="#equipo" class="scroll-equipo">NUESTRO EQUIPO</a>
+        <a href="#contacto" class="scroll-suave">CONTACTO</a>
       </nav>
 
       <div class="top-redes">
@@ -95,7 +102,7 @@
         <div class="texto-banner">
           <h2>Lorem ipsum dolor sit.</h2>
           <h1>ALMAR</h1>
-          <a class="scroll-suave">VER PROYECTOS</a>
+          <a class="scroll-suave" href="#proyectos">VER PROYECTOS</a>
         </div>
       </section>
 
@@ -257,18 +264,21 @@
         <div class="contenedor">
 
           <div class="contenedor-formulario">
-            <div class="formulario">
+            <div class="formulario" id="formulario">
               <h2> Cuentanos sobre tu proyecto</h2>
               <p>Lorem ipsum dolor sit amet, consectetur.</p>
               <form>
                 <div>
-                  <input type="text" name="nombre" value="" placeholder="Nombre">
+                  <input type="text" name="nombre" value="" placeholder="Nombre" id="nombre">
+                  <p class="error">Por favor escriba su nombre</p>
                 </div>
                 <div>
-                  <input type="email" name="email" value="" placeholder="Email">
+                  <input type="email" name="email" value="" placeholder="Email" id="email">
+                  <p class="error">Por favor escriba su correo</p>
                 </div>
                 <div>
-                  <textarea name="mensaje" placeholder="Cuentanos sobre tu proyecto"></textarea>
+                  <textarea name="mensaje" placeholder="Cuentanos sobre tu proyecto" id="mensaje"></textarea>
+                  <p class="error">Por favor ingrese su consulta</p>
                 </div>
                 <div>
                   <input type="submit" name="Enviar" value="Enviar">
@@ -299,8 +309,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="js/parallax.js"></script>
   <script src="js/jquery.min.js"></script>
+  <script src="js/scrollSuave.js"></script>
   <script src="js/stickyHeader.js"></script>
   <script src="js/slider.js"></script>
+  <script src="js/validacion.js"></script>
+  <script src="js/menu-movil.js"></script>
   <!-- <script src="js/banner.js"></script> -->
   <script type="text/javascript" src="js/prefix.min.js"></script>
 </body>
