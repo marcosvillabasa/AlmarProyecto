@@ -110,6 +110,21 @@ body{
 .menu-fixed .menu-principal a:hover, .menu-fixed .top-redes a:hover{
   color: #0089E0;
 }
+.menu-fixed .logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  transition: all .3s ease;
+}
+.menu-fixed .logo p{
+  color: #444444;
+}
+.menu-fixed .logo p:hover{
+  color: #0089E0;
+}
 
 /* =======MAIN======= */
 
@@ -373,10 +388,11 @@ body{
 /* -----contacto------- */
 .main .contacto{
   padding: 190px 0;
-  background-image: url("../img/contacto2.jpg");
+  /* background-image: url("../img/contacto2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+
 }
 
 .main .contacto .contenedor-formulario{
@@ -606,6 +622,16 @@ footer .footer-sociales a:hover{
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  /* clientes  */
+  .main .clientes .contenedor .titulo-section{
+    margin-top: 20px;
+  }
+  .main .clientes .contenedor .cliente .foto{
+    max-width: 100%;
+  }
+  .main .clientes .contenedor .cliente .foto img{
+    width: 100%;
   }
 
 }
