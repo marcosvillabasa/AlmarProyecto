@@ -45,10 +45,10 @@ $(document).ready(function(){
 
     btnAnterior.on('click', moverIzquierda);
 
-    var intervalo = setInterval(moverDerecha,4000);
+    var intervalo = setInterval(moverDerecha,8000);
 
     function resetIntervalo(){
       clearInterval(intervalo);
-      intervalo = setInterval(moverDerecha,4000);
+      intervalo = setInterval(moverDerecha,8000);
     }
 });

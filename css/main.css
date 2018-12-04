@@ -215,7 +215,7 @@ body{
 
 .main .servicios{
   background: #f3f4fa;
-  padding: 108px 0 54px 0;
+  padding: 54px 0 54px 0;
 }
 .main .servicios .contenedor .galeria-servicios{
   width: 100%;
@@ -372,7 +372,7 @@ body{
   font-size: 1.5rem;
 }
 .main .contenedor-slider  .slider .tarjeta p{
-
+  padding: 10px;
 }
 
 /* ------Equipo------ */
@@ -385,7 +385,7 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 .main .equipo .integrantes .persona{
   background: #fff;
@@ -394,12 +394,10 @@ body{
   max-width: 400px;
   box-shadow: 0px 9px 32px -1px rgba(0,0,0,.2);
   text-align: center;
+  margin: 10px;
 }
 .main .equipo .integrantes .persona .foto{
-  width: 70%;
-  max-width: 300px;
-  display: inline-block;
-  margin-bottom: 10px;
+
 }
 .main .equipo .integrantes .persona .foto img{
   width: 100%;
@@ -693,5 +691,7 @@ footer .footer-sociales a:hover{
   .main .clientes .contenedor .cliente .foto img{
     width: 100%;
   }
-
+  .main .contenedor-slider .titulo-slider h2{
+    font-size: 2rem;
+  }
 }
