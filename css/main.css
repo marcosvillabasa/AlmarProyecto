@@ -12,7 +12,7 @@ body{
 
 .contenedor{
   width: 90%;
-  max-width: 1080px;
+  max-width: 1200px;
   margin: 0 auto;;
 }
 .titulo-section{
@@ -306,6 +306,7 @@ body{
   font-size: 3.12rem;
   margin-bottom: 15px;
   font-weight: 500;
+  border-bottom: 1px solid #D5D8DC;
 }
 
 
@@ -391,16 +392,18 @@ body{
   background: #fff;
   padding: 50px;
   width: 100%;
-  max-width: 400px;
-  box-shadow: 0px 9px 32px -1px rgba(0,0,0,.2);
+  max-width: 450px;
+  box-shadow: 0px 9px 32px -1px rgba(0,0,0,.3);
   text-align: center;
   margin: 10px;
+  border-radius: 8px;
 }
 .main .equipo .integrantes .persona .foto{
 
 }
 .main .equipo .integrantes .persona .foto img{
   width: 100%;
+  max-width: 250px;
   border-radius: 100%;
 }
 .main .equipo .integrantes .persona .texto h3{
@@ -418,6 +421,7 @@ body{
   color: #979797;
   font-size: 0.9;
   font-weight: 400;
+  text-align: left;
 }
 
 /* -------clientes---------- */
@@ -564,6 +568,7 @@ footer .footer-sociales a:hover{
     flex-direction: row;
     justify-content: center;
     text-align: left;
+    align-items: center;
   }
   .main .equipo .integrantes .persona:first-child{
     margin-bottom: 20px;
@@ -571,7 +576,14 @@ footer .footer-sociales a:hover{
 
   .main .equipo .integrantes .persona .foto{
     margin-right: 20px;
+    width: 100%
   }
+  .main .equipo .integrantes .persona .foto img{
+    width: 100%;
+  }
+
+  /* equipo */
+
 
 }
 
