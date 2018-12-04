@@ -211,13 +211,13 @@ body{
   color: #0089E0;
 }
 
-/* -----proyectos------ */
+/* -----servicios------ */
 
-.main .proyectos{
+.main .servicios{
   background: #f3f4fa;
   padding: 108px 0 54px 0;
 }
-.main .proyectos .contenedor .galeria-proyectos{
+.main .servicios .contenedor .galeria-servicios{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -225,12 +225,12 @@ body{
   padding-bottom: 34px;
   border-bottom: 1px solid #ccc;
 }
-.main .proyectos .galeria-proyectos .proyecto{
+.main .servicios .galeria-servicios .servicio{
   width: 32%;
   margin-bottom: 2%;
   cursor: pointer;
 }
-.main .proyectos .galeria-proyectos .proyecto img{
+.main .servicios .galeria-servicios .servicio img{
   width: 100%;
   vertical-align: top;
 }
@@ -649,8 +649,8 @@ footer .footer-sociales a:hover{
   .titulo-section h2{
     font-size: 2.125rem;
   }
-  /* proyectos */
-  .main .proyectos .galeria-proyectos .proyecto{
+  /* servicios */
+  .main .servicios .galeria-servicios .servicio{
     width: 49%;
   }
   /* equipo */
