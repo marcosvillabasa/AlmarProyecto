@@ -196,7 +196,9 @@ body{
   line-height: 90px;
   color: #fff;
   margin-bottom: 20px;
+
 }
+
 .main .banner-principal .texto-banner a{
   text-decoration: none;
   display: inline-block;
@@ -209,6 +211,14 @@ body{
 .main .banner-principal .texto-banner a:hover{
   background: #fff;
   color: #0089E0;
+}
+
+.main .banner-principal .texto-banner p{
+  color: #fff;
+  margin-bottom: 2%;
+  font-weight: 300;
+  font-size: 1.1rem;
+  font-style: italic;
 }
 
 /* -----servicios------ */
@@ -435,6 +445,9 @@ body{
   font-size: 0.9;
   font-weight: 400;
   text-align: left;
+}
+.main .equipo .contenedor .titulo-section{
+  box-shadow: 5px 5px 1px rgba(0,0,0,.2);
 }
 
 /* -------clientes---------- */
