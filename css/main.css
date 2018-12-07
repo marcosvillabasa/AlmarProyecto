@@ -376,6 +376,19 @@ body{
   padding: 10px;
 }
 
+.main .contenedor-slider  .slider .tarjeta .verMas{
+  /* display: none; */
+}
+.main .contenedor-slider  .slider .tarjeta .verMas p a{
+
+  display: none;
+}
+
+
+
+
+
+
 /* ------Equipo------ */
 .main .equipo {
    background: #f3f4fa;
@@ -705,5 +718,28 @@ footer .footer-sociales a:hover{
   }
   .main .contenedor-slider .titulo-slider h2{
     font-size: 2rem;
+  }
+  /* slider */
+  .main .contenedor-slider  .slider .tarjeta > p{
+    display: none;
+  }
+  .main .contenedor-slider  .slider .tarjeta .verMas p a{
+
+    display: inline-block;
+    padding: 0 10px;
+    color: #FF9500;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    transition: all .3s ease;
+    border: 1px solid #B26800;
+    border-radius: 3px;
+  }
+
+  /* sobre nosotras */
+  .main .sobre-nosotros .contenedor .texto-sobre-nosotros{
+    text-align: left;
   }
 }
