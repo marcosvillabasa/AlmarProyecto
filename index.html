@@ -68,10 +68,9 @@
         <a href="#contacto" class="scroll-suave">CONTACTO</a>
       </nav>
 
-      <div class="top-redes">
-        <a href="#"><i class="fab fa-facebook-f"></i></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
+      <div class="top-idiomas">
+        <a href="#"><i class="fas fa-globe-americas"></i> EN</a>
+        <a href="#"><i class="fas fa-globe-americas"></i> ES</a>
       </div>
     </div>
   </header>
@@ -90,10 +89,9 @@
         <a href="#contacto" class="scroll-suave">CONTACTO</a>
       </nav>
 
-      <div class="top-redes">
-        <a href="#"><i class="fab fa-facebook-f"></i></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
+      <div class="top-idiomas">
+        <a href="/lang.php?idk=en"><i class="fas fa-globe-americas"></i> EN</a>
+        <a href="/lang.php?idk=es"><i class="fas fa-globe-americas"></i> ES</a>
       </div>
     </div>
 
@@ -118,7 +116,6 @@
         <div class="contenedor">
           <div class="titulo-section">
             <h2>SERVICIOS</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, molestiae, sit. Perspiciatis rem esse earum.</p>
           </div>
           <div class="galeria-servicios">
 
@@ -305,9 +302,37 @@
           </div>
         </div>
       </section>
-
       <!-- seccion CLIENTES -->
+      <section class="contenedor-clientes" id="clientes">
+        <div class="contenedor">
+          <div class="titulo-section">
+            <h2 class="animated fadeInDown">NUESTROS CLIENTES</h2>
+          </div>
 
+          <div class="grid" id="grid">
+            <div class="grid-item" id="grid-item">
+              <img src="img/clientes/petTorres.jpg" alt="">
+              <p>Estoy feliz de que Karina haya traducido uno de mis libros. Es una gran profesional como traductora y mi novela quedó perfecta en español. Espero poder trabajar con ella en otra oportunidad.<cite>-"Pet Torres"</cite></p>
+            </div>
+            <div class="grid-item" id="grid-item">
+              <img src="img/clientes/dianaPetFood.jpg" alt="">
+
+              <p>Traducción técnica científica <cite>Diana Peet Food</cite></p>
+            </div>
+            <div class="grid-item" id="grid-item">
+              <img src="" alt="">
+              <p>Traducción médica<cite>Elena Serrano</cite></p>
+            </div>
+
+
+
+          </div>
+
+
+
+        </div>
+
+      </section>
 
       <!-- seccion contacto -->
       <section class="contacto" id="contacto" data-parallax="scroll" data-image-src="img/contacto2.jpg">
@@ -315,8 +340,7 @@
 
           <div class="contenedor-formulario">
             <div class="formulario" id="formulario">
-              <h2> Cuentanos sobre tu servicio</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur.</p>
+              <h2> Cuentanos sobre tu proyecto</h2>
               <form>
                 <div>
                   <input type="text" name="nombre" value="" placeholder="Nombre" id="nombre">
@@ -356,8 +380,11 @@
     </footer>
 
 
-  <!-- modal -->
 
+
+
+
+  <!-- modal -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 
@@ -375,6 +402,11 @@
         $('#modal').modal();
       });
   </script>
+
+  <!-- masonry -->
+  <script src="plugins\masonry.pkgd.min.js"></script>
+  <script src="js/masonry.js"></script>
+
   <!-- <script src="js/banner.js"></script> -->
   <script type="text/javascript" src="js/prefix.min.js"></script>
   <script></script>
