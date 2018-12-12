@@ -369,7 +369,8 @@
           <div class="contenedor-formulario">
             <div class="formulario" id="formulario">
               <h2> Cuentanos sobre tu proyecto</h2>
-              <form>
+
+              <form action="enviar.php" method="POST">
                 <div>
                   <input type="text" name="nombre" value="" placeholder="Nombre" id="nombre">
                   <p class="error">Por favor escriba su nombre</p>
@@ -382,10 +383,12 @@
                   <textarea name="mensaje" placeholder="Cuentanos sobre tu servicio" id="mensaje"></textarea>
                   <p class="error">Por favor ingrese su consulta</p>
                 </div>
+
                 <div>
                   <input type="submit" name="Enviar" value="Enviar">
                 </div>
               </form>
+
             </div>
             <div class="foto">
 
@@ -442,7 +445,9 @@
         $('#modal').modal();
       });
   </script>
-
+  <!-- swal -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  
   <!-- masonry -->
   <script src="plugins\masonry.pkgd.min.js"></script>
   <script src="js/masonry.js"></script>
