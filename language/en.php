@@ -68,6 +68,14 @@
     beginning up to the moment of advertising. Dedication, forseeing and proactivity
     are inside our DNA. Translation is our passion, and responsability";
 
+    //sobre nosotros
+    $titSobreNosotros="ABOUT US";
     
+    $textoUno="We are a team of professionals providing translation, subtitling and localization services from and into English and Spanish.";
+    $textoDos="We offer an integral linguistic service, both for professional individuals and companies.";
+    $textoTres="We manage your design and competitiveness of every presentation, thesis, books, movies and every type of document, providing comprehensive solutions, guaranteed by a
+    formal academic education, applied to each client’s specific market, which
+    assumes precision and efficacy.";
+    $textoCuatro="We provide add value to professionals and companies, with the highest absolute confidentiality and protection of your documents.";
 
 ?>

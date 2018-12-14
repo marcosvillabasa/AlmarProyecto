@@ -70,6 +70,12 @@
      la instancia de publicación. La dedicación, la previsión y la proactividad está en
      nuestro ADN. Traducimos con pasión and responsabilidad.";
 
-
+    //sobre nosotros
+    $titSobreNosotros="SOBRE NOSOTRAS";
+    
+    $textoUno="Somos un equipo de traductoras profesionales que brindamos servicios de traducción, subtitulación y localización de textos en los idiomas inglés y español.";
+    $textoDos="Ofrecemos un servicio lingüístico integral, tanto para individuos como para empresas.";
+    $textoTres="Nos ocupamos del diseño y profesionalización de tus presentaciones, tesis, libros, videos y documentos, brindando soluciones integrales, avaladas por una preparación formal, aplicadas al mercado específio de cada cliente que garantizan precisión y eficiencia.";
+    $textoCuatro="Aportamos valor agregado a los profesionales y a las empresas, con la más absoluta confidencialidad y resguardo de tu información.";
 
 ?>

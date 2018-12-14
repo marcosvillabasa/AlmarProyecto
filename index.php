@@ -246,6 +246,30 @@
             </div>
         </section>
 
+        <!-- Sobre nosotros -->
+        <section class="sobre-nosotros" id="sobre-nosotros">
+            <div class="contenedor">
+            <div class="titulo-section">
+                <h2><?php echo $titSobreNosotros; ?></h2>
+            </div>
+            <div class="texto-sobre-nosotros">
+                <p>
+                    <?php  echo $textoUno;?>
+                </p>
+                <p>
+                    <?php  echo $textoDos;?>
+                </p>
+                <p>
+                    <?php  echo $textoTres;?>
+                </p>
+                <p>
+                    <?php  echo $textoCuatro;?>
+                </p>
+            </div>
+            </div>
+
+        </section>
+
 
 
 
