@@ -20,7 +20,7 @@
     $nuestrosServicios="NUESTROS SERVICIOS";
 
     //servicios
-    $traduccion="Traduccion";
+    $traduccion="Traducción";
     $textoTraduccion="Nos especializamos en traducciones técnicas, científicas y literarias, del y al Inglés, con el mayor, precisión y respaldo para que tu producto sea tan bueno como el original. ";
 
     $edicion="Edición y corrección";
@@ -33,10 +33,8 @@
     a nivel corporativo, como académico.";
 
     $subtitulacion="Subtitulación";
-    $textoSubtitulacion="Proporcionamos soluciones de subtitulado para todos tipo de archvios y
-    soporte media: videos, documentales, películas y publicidades. Nuestro trabajo
-    de subtitulación incluye la traducción, la segmentación, la temporización y la
-    incrustación de subtítulos. Nos especializamos en la adaptación de
+    $textoSubtitulacion="Proporcionamos soluciones de subtitulado para todo tipo de archivos y
+    soporte media: videos, documentales, películas y publicidades. Nuestro trabajo de subtitulación incluye la traducción, segmentación, temporización e incrustación de subtítulos. Nos especializamos en la adaptación de
     traducciones tanto para el doblaje, como voice-over.";
 
 
@@ -83,7 +81,7 @@
 
     $trCaro="Tr. Carolina Álvarez";
     $profesionCaro="Traductora";
-    $descripcionCaro="Traductora técnica científica y literaria, especialista en la traducción técnica, específicamente en Ingeniería Civil, y en la traducción científica, en las ramas de la medicina (oncología, patentes, farmacia, ensayos clínicos). Amplias habilidades informáticas para el diseño, el formato y la corrección de documentos en una amplia gama de tipos de archivos. Amplio manejo de herramientas informáticas, y el uso avanzado de herramientas de traducción, desde glosarios, bases terminológicas y programas asistidos de traducción, certificación oficial de SDL Trados Studio 2017 en Post Edition Machine Translation, brindando servicios para agencias en textos gestionados a través de motores automatizados.";
+    $descripcionCaro="Traductora técnica científica y literaria, especialista en la traducción técnica, específicamente en Ingeniería Civil, y en la traducción científica, en las ramas de la medicina (oncología, patentes, farmacia, ensayos clínicos). Avanzadas competencias informáticas en diseño y en herramientas de traducción para el diseño, el formato y la corrección de documentos en una amplia gama de tipos de archivos. Amplio manejo de herramientas informáticas, y el uso avanzado de herramientas de traducción, desde glosarios, bases terminológicas y programas asistidos de traducción, certificación oficial de SDL Trados Studio 2017 en Post Edition Machine Translation, brindando servicios para agencias en textos gestionados a través de motores automatizados.";
 
     $trKari="Tr. Karina Marchini";
     $profesionKari="Traductora y Profesora de inglés";
@@ -101,6 +99,48 @@
     $errorConsulta="Por favor ingrese su consulta";
 
     $enviar="Enviar";
+
+    //clientes
+    $titClientes= "NUESTROS CLIENTES";
+
+    //dianapetfood
+    $petFood= "Diana Pet Food";
+    $textoPet = "Traducción técnica científica";
+
+    //Pet Torres
+    $petTorres = "Pet Torres";
+    $textoTorres = "Estoy feliz de que Karina haya traducido uno de mis libros. Es una gran
+    profesional como traductora y mi novela quedó perfecta en español. Espero
+    poder trabajar con ella en otra oportunidad.";
+
+    //Geetanjali Mukherjee:
+    $geet="Geetanjali Mukherjee";  
+    $textoGeet="Una maravillosa relación laboral, comunicándose siempre a tiempo y
+    dejándome saber cualquier demora. Muy comprometida a proveer una
+    traducción de altísima calidad!"; 
+
+    //Mauricio Alejandro Kehrwald
+    $mauricio="Mauricio Alejandro Kehrwald";
+    $textoMauricio="Desde hace 2 años trabajo junto a Karina, a quien le envío regularmente
+    textos que van desde 1 carilla hasta un largo artículo de tesis de
+    conclusión de carrera,  además de  textos de distintos proyectos con
+    características muy diferentes. Karina realiza las correcciones, tanto en
+    español, como en inglés de manera sumamente rápida, enviando
+    alternativas sintácticas y semánticas en caso de duda,  lo que demuestra
+    una real preocupación por el mantenimiento del sentido textual. Además,
+    me gustaría aportar otro hecho en mi experiencia personal: desde el
+    primer contacto, Karina me ha tratado muy profesionalmente y, a la vez,
+    siempre hizo bastante más de lo que se observa en las prácticas
+    profesionales en general.";
+
+    //King L Wu &amp; Associates, P. C.
+    $king="King L Wu &amp; Associates, P. C.";
+    $textoKing="Servicios de edición Gráfica";
+
+    //Elena Serrano
+    $elena="Elena Serrano";
+    $textoElena="Traducción médica:";
+
 
     //pie de pagina 
     $miembro = "MIEMBROS DE";

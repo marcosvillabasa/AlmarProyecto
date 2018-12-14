@@ -122,6 +122,43 @@
 
     $enviar="Submit";
 
+    //clientes
+    $titClientes= "OUR COSTUMERS";
+
+    $petFood= "Diana Pet Food";
+    $textoPet = "Scientific technical translation";
+
+    //Pet Torres
+    $petTorres = "Pet Torres";
+    $textoTorres = "I am glad Karina has translated one of my books. She is a great
+    professional as a translator and my story looked perfect into her origin
+    language. I hope to work with her other times.";
+
+    //Geetanjali Mukherjee:
+    $geet="Geetanjali Mukherjee";   
+    $textoGeet="Wonderful working relationship - always communicated on time and let me
+    know in advance about any delays. Very committed to providing a high-
+    quality translation!"; 
+
+    //Mauricio Alejandro Kehrwald
+    $mauricio="Mauricio Alejandro Kehrwald";
+    $textoMauricio="I have been working with Karina for two years, sending her on a regular basis
+    texts from 1 page to a long thesis chapter for my career, plus some various
+    texts with very different characteristics. Karina corrects, both in Spanish and
+    English, in a highly fast manner, providing syntactic and semantic options,
+    which proves a real commitment with the text’s semantics. Besides, I’d like to
+    add one more thing of my personal experience working with her: Karina is
+    highly professional and, at the same time, always has done more than what is
+    observed in the general professional exercises.";
+
+    //King L Wu &amp; Associates, P. C.
+    $king="King L Wu &amp; Associates, P. C.";
+    $textoKing="Desktop Publishing and Graphic Design";
+
+    //Elena Serrano
+    $elena="Elena Serrano";
+    $textoElena="Medical Translation";
+
     //pie de pagina 
     $miembro = "MEMBERS OF";
     $derechos = "All rights reserved";
