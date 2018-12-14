@@ -78,4 +78,15 @@
     $textoTres="Nos ocupamos del diseño y profesionalización de tus presentaciones, tesis, libros, videos y documentos, brindando soluciones integrales, avaladas por una preparación formal, aplicadas al mercado específio de cada cliente que garantizan precisión y eficiencia.";
     $textoCuatro="Aportamos valor agregado a los profesionales y a las empresas, con la más absoluta confidencialidad y resguardo de tu información.";
 
+    //equipo
+    $titEquipo="EQUIPO";
+
+    $trCaro="Tr. Carolina Álvarez";
+    $profesionCaro="Traductora";
+    $descripcionCaro="Traductora técnica científica y literaria, especialista en la traducción técnica, específicamente en Ingeniería Civil, y en la traducción científica, en las ramas de la medicina (oncología, patentes, farmacia, ensayos clínicos). Amplias habilidades informáticas para el diseño, el formato y la corrección de documentos en una amplia gama de tipos de archivos. Amplio manejo de herramientas informáticas, y el uso avanzado de herramientas de traducción, desde glosarios, bases terminológicas y programas asistidos de traducción, certificación oficial de SDL Trados Studio 2017 en Post Edition Machine Translation, brindando servicios para agencias en textos gestionados a través de motores automatizados.";
+
+    $trKari="Tr. Karina Marchini";
+    $profesionKari="Traductora y Profesora de inglés";
+    $descripcionKari="Profesora de inglés, traductora técnica científica y literaria, especialista en textos científicos, en la rama de la medicina específicamente en nutrición, medicina del deporte, subtitulado y adaptaciones de traducciones para doblaje y voice-over, tanto en el español como en el inglés. Amplia experiencia en traducciones literarias, poesía, novelas, canciones, blogs, corrección de documentos en inglés y en español en la rama de la psicología.";
+
 ?>

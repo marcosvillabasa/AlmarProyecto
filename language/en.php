@@ -78,4 +78,34 @@
     assumes precision and efficacy.";
     $textoCuatro="We provide add value to professionals and companies, with the highest absolute confidentiality and protection of your documents.";
 
+    //equipo
+    $titEquipo="TEAM";
+
+    $trCaro="Tr. Carolina Álvarez";
+    $profesionCaro="Translator";
+    $descripcionCaro="I am a Technical Scientifc and Literary Translator with more than 10 years of
+    experience, especialized in technical translation, particularly in the field of Civil
+    Engeneering and in scientific translation, specifically in Medicine (Oncology,
+    patents, pharmacy and clinical trials) . I have over 6 years of experience in the
+    translation of texts about higher education and literature (novels and poems) . I
+    am a great style editor thanks to my expertise and I have developed IT skills for
+    design, format and correction of documents with a wide variety of file formats.
+    I can perfectly manage software tools including Windows and Mac and the
+    advance use of translation tools which covers glossaries, terminology database
+    and CAT tools . I also have SDL Trados oficial certification, assisting
+    agencies with texts which are managed through automated equipment.";
+
+    $trKari="Tr. Karina Marchini";
+    $profesionKari="Translator and Teacher of English";
+    $descripcionKari="I am a teacher of English with more than 15 years of experience in the
+    teaching of all levels: children, teens, adults and enterprises, both on line and
+    face-to-face, being the leader and supervising a language institute for over 13
+    years in Buenos Aires.
+    Besides, I am a Technical Scientific and Literary Translator, with more than 5
+    years of experience in linguistic services. I am specialized in scietific texts, in
+    the field of Medicine, particularly in Nutrition and Sport Medicine, and in
+    subtitlting and adaptations of translations for voice- over and dubbing, both in
+    English and Spanish. I have a great variety of literary translations, from poetry,
+    novels, songs, blogs, etc.as well as corrections of documents in English and
+    Spanish in the field of Psicology.";
 ?>

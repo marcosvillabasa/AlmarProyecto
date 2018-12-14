@@ -270,6 +270,44 @@
 
         </section>
 
+        <!-- equipo -->
+        <section class="equipo" id="equipo">
+        <div class="contenedor">
+          <div class="titulo-section">
+            <h2>EQUIPO</h2>
+          </div>
+          <div class="integrantes">
+
+            <div class="persona">
+              <div class="foto">
+                <img src="img/caro.jpg" alt="Integrante">
+              </div>
+              <div class="texto">
+                <h3><?php echo $trCaro; ?></h3>
+                <h4><?php echo $profesionCaro; ?></h4>
+                <p>
+                    <?php echo $descripcionCaro; ?>
+                </p>
+              </div>
+            </div>
+
+            <div class="persona">
+              <div class="foto">
+                <img src="img/karina.jpg" alt="Integrante">
+              </div>
+              <div class="texto">
+                <h3><?php echo $trKari; ?></h3>
+                <h4><?php echo $profesionKari; ?></h4>
+                <p>
+                    <?php echo $descripcionKari; ?>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
 
 
 
