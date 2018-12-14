@@ -101,6 +101,33 @@
         </div>
     </header>
 
+    <!-- encabezado fixed -->
+
+    <div class="menu-fixed" id="menu-fixed">
+    <a href="#" class="logo volver-arriba">
+            <p class="animated fadeIn">ALMAR</p>
+        </a>
+        <nav class="menu-principal">
+            <a href="" class="volver-arriba"><?php echo $inicio;    ?></a>
+            <a href="#servicios" class="scroll-suave"><?php echo $servicios;    ?></a>
+            <a href="#sobre-nosotros" class="scroll-sobre-nosotros"><?php echo $quienesSomos;    ?></a>
+            <a href="#equipo" class="scroll-equipo"><?php echo $equipo;    ?></a>
+            <a href="#clientes" class="scroll-equipo"><?php echo $clientes;    ?></a>
+            <a href="#contacto" class="scroll-suave"><?php echo $contacto;    ?></a>
+        </nav>
+
+        <div class="top-idiomas">
+            <a href="changelanguage.php?language=es">
+                <i class="fas fa-globe-americas"></i> <?php echo $spanish; ?>
+            </a>
+
+            <a href="changelanguage.php?language=en">
+                <i class="fas fa-globe-americas"></i> <?php echo $english; ?>
+            </a>
+            
+        </div>
+    </div>
+
     <section class="main">
          <!-- banner-principal -->
         <section class="banner-principal">
@@ -272,41 +299,151 @@
 
         <!-- equipo -->
         <section class="equipo" id="equipo">
+            <div class="contenedor">
+            <div class="titulo-section">
+                <h2><?php echo $titEquipo; ?></h2>
+            </div>
+            <div class="integrantes">
+
+                <div class="persona">
+                <div class="foto">
+                    <img src="img/caro.jpg" alt="Integrante">
+                </div>
+                <div class="texto">
+                    <h3><?php echo $trCaro; ?></h3>
+                    <h4><?php echo $profesionCaro; ?></h4>
+                    <p>
+                        <?php echo $descripcionCaro; ?>
+                    </p>
+                </div>
+                </div>
+
+                <div class="persona">
+                <div class="foto">
+                    <img src="img/karina.jpg" alt="Integrante">
+                </div>
+                <div class="texto">
+                    <h3><?php echo $trKari; ?></h3>
+                    <h4><?php echo $profesionKari; ?></h4>
+                    <p>
+                        <?php echo $descripcionKari; ?>
+                    </p>
+                </div>
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+        <!-- contacto -->
+        <section class="contacto" id="contacto" data-parallax="scroll" data-image-src="img/contacto2.jpg">
         <div class="contenedor">
-          <div class="titulo-section">
-            <h2>EQUIPO</h2>
-          </div>
-          <div class="integrantes">
 
-            <div class="persona">
-              <div class="foto">
-                <img src="img/caro.jpg" alt="Integrante">
-              </div>
-              <div class="texto">
-                <h3><?php echo $trCaro; ?></h3>
-                <h4><?php echo $profesionCaro; ?></h4>
-                <p>
-                    <?php echo $descripcionCaro; ?>
-                </p>
-              </div>
+          <div class="contenedor-formulario">
+            <div class="formulario" id="formulario">
+              <h2> <?php echo $titProyecto; ?></h2>
+
+              <form action="enviar.php" method="POST">
+                <div>
+                  <input type="text" name="nombre" value="" placeholder="<?php echo $placeNombre;  ?>" id="nombre">
+                  <p class="error"><?php echo $errorNombre;  ?></p>
+                </div>
+                <div>
+                  <input type="email" name="email" value="" placeholder="<?php echo $placeCorreo;  ?>" id="email">
+                  <p class="error"><?php echo $errorCorreo;  ?></p>
+                </div>
+                <div>
+                  <textarea name="mensaje" placeholder="<?php echo $placeMensaje;  ?>" id="mensaje"></textarea>
+                  <p class="error"><?php echo $errorConsulta;  ?></p>
+                </div>
+
+                <div>
+                  <input type="submit" name="Enviar" value="<?php echo $enviar;  ?>">
+                </div>
+              </form>
+
             </div>
+            <div class="foto">
 
-            <div class="persona">
-              <div class="foto">
-                <img src="img/karina.jpg" alt="Integrante">
-              </div>
-              <div class="texto">
-                <h3><?php echo $trKari; ?></h3>
-                <h4><?php echo $profesionKari; ?></h4>
-                <p>
-                    <?php echo $descripcionKari; ?>
-                </p>
-              </div>
             </div>
-
           </div>
         </div>
       </section>
+
+
+    <!-- seccion CLIENTES -->
+    <section class="contenedor-clientes" id="clientes">
+        <div class="contenedor">
+          <div class="titulo-section">
+            <h2 class="animated fadeInDown">NUESTROS CLIENTES</h2>
+          </div>
+
+          <div class="grid" id="grid">
+
+            <div class="grid-item" id="grid-item">
+              <h4></h4>
+              <img src="" alt="">
+              <p>"Desde hace 2 años trabajo junto a Karina, a quien le envío regularmente textos que van desde 1 carilla hasta un largo artículo de tesis de conclusión de carrera,  además de  textos de distintos proyectos con características muy diferentes. Karina realiza las correcciones, tanto en español, como en inglés de manera sumamente rápida, enviando alternativas sintácticas y semánticas en caso de duda,  lo que demuestra una real preocupación por el mantenimiento del sentido textual. Además, me gustaría aportar otro hecho en mi experiencia personal: desde el primer contacto, Karina me ha tratado muy profesionalmente y, a la vez, siempre hizo bastante más de lo que se observa en las prácticas profesionales en general."<cite> -Mauricio Alejandro Kehrwald</cite></p>
+            </div>
+
+            <div class="grid-item" id="grid-item">
+              <img src="img/clientes/petTorres.jpg" alt="">
+              <p>Estoy feliz de que Karina haya traducido uno de mis libros. Es una gran profesional como traductora y mi novela quedó perfecta en español. Espero poder trabajar con ella en otra oportunidad.<cite>-"Pet Torres"</cite></p>
+            </div>
+
+            <div class="grid-item" id="grid-item">
+              <img src="img/clientes/dianaPetFood.jpg" alt="">
+
+              <p>Traducción técnica científica <cite> -Diana Peet Food</cite></p>
+            </div>
+
+            <div class="grid-item" id="grid-item">
+              <img src="" alt="">
+              <p>Traducción médica<cite> -Elena Serrano</cite></p>
+            </div>
+
+            <div class="grid-item" id="grid-item">
+              <h4></h4>
+              <img src="" alt="">
+              <p>"Una maravillosa relación laboral, comunicándose siempre a tiempo y dejándome saber cualquier demora. Muy comprometida a proveer una traducción de altísima calidad!"<cite> -Geetanjali Mukherjee</cite></p>
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- pie de pagina -->
+    <footer>
+      <div class="copy">
+        <p><?php echo $miembro; ?></p>
+      </div>
+      <div class="footer-miembro-de">
+        <div class="miembro">
+          <img src="img/logos/ata.png" alt="">
+        </div>
+        <div class="miembro">
+          <img src="img\logos\logo_aati_color.svg" alt="">
+        </div>
+        <div class="miembro">
+          <img src="img\logos\proz-logo.png" alt="">
+        </div>
+        <div class="miembro">
+          <img src="img\logos\sdl.png" alt="">
+        </div>
+      </div>
+      <div class="derechos">
+        <p>&copy;<?php echo $derechos; ?></p>
+      </div>
+    </footer>
 
 
 

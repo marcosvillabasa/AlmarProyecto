@@ -108,4 +108,21 @@
     English and Spanish. I have a great variety of literary translations, from poetry,
     novels, songs, blogs, etc.as well as corrections of documents in English and
     Spanish in the field of Psicology.";
+
+    //contacto
+    $titProyecto = "Tell us about your project";
+
+    $placeNombre="Name";
+    $placeCorreo="Email";
+    $placeMensaje="Tell us about your project";
+
+    $errorCorreo="Please write your email";
+    $errorNombre="Please write your name";
+    $errorConsulta="Please enter your query";
+
+    $enviar="Submit";
+
+    //pie de pagina 
+    $miembro = "MEMBERS OF";
+    $derechos = "All rights reserved";
 ?>

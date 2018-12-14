@@ -89,4 +89,20 @@
     $profesionKari="Traductora y Profesora de inglés";
     $descripcionKari="Profesora de inglés, traductora técnica científica y literaria, especialista en textos científicos, en la rama de la medicina específicamente en nutrición, medicina del deporte, subtitulado y adaptaciones de traducciones para doblaje y voice-over, tanto en el español como en el inglés. Amplia experiencia en traducciones literarias, poesía, novelas, canciones, blogs, corrección de documentos en inglés y en español en la rama de la psicología.";
 
+    //contacto
+    $titProyecto = "Cuéntanos sobre tu proyecto";
+
+    $placeNombre="Nombre";
+    $placeCorreo="Correo";
+    $placeMensaje="Cuéntanos sobre tu proyecto";
+
+    $errorCorreo="Por favor escriba su correo";
+    $errorNombre="Por favor escriba su nombre";
+    $errorConsulta="Por favor ingrese su consulta";
+
+    $enviar="Enviar";
+
+    //pie de pagina 
+    $miembro = "MIEMBROS DE";
+    $derechos = "Derechos Reservados";
 ?>
