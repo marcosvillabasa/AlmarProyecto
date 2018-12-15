@@ -32,7 +32,7 @@ $mensajePreparado .= "Mensaje: $mensaje";
 
 //enviando mensaje
 mail($destinatario,$asunto,$mensajePreparado);
-header('Location:index.html');
+header('Location:index.php');
 $enviado=true;
 
 
