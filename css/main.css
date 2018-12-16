@@ -813,7 +813,7 @@
     }
     /* slider */
     .main .contenedor-slider  .slider .tarjeta > p,
-    .main .equipo .contenedor .integrantes .persona .texto p
+    .main .equipo .contenedor .integrantes .persona .texto > p
     {
       display: none;
     }
