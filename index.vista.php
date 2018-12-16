@@ -28,16 +28,11 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:700" rel="stylesheet">
   <!--mis estilos  -->
-  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animaciones.css">
 
   <!-- modal -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-
-
-  <!-- bootstrap -->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
-
 
 </head>
 <body>
