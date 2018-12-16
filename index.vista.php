@@ -300,38 +300,61 @@
         <!-- equipo -->
         <section class="equipo" id="equipo">
             <div class="contenedor">
-            <div class="titulo-section">
-                <h2><?php echo $titEquipo; ?></h2>
-            </div>
-            <div class="integrantes">
+                <div class="titulo-section">
+                    <h2><?php echo $titEquipo; ?></h2>
+                </div>
+                <div class="integrantes">
 
-            <div class="persona">
-              <div class="foto">
-                <img src="img/caro.jpg" alt="Integrante">
-              </div>
-              <div class="texto">
-              <h3><?php echo $trCaro; ?></h3>
-                        <h4><?php echo $profesionCaro; ?></h4>
-                        <p>
-                            <?php echo $descripcionCaro; ?>
-                        </p>
-              </div>
-            </div>
+                    <div class="persona">
+                        <div class="foto">
+                            <img src="img/caro.jpg" alt="Integrante">
+                        </div>
 
-            <div class="persona">
-              <div class="foto">
-                <img src="img/karina.jpg" alt="Integrante">
-              </div>
-              <div class="texto">
-                    <h3><?php echo $trKari; ?></h3>
-                    <h4><?php echo $profesionKari; ?></h4>
-                    <p>
-                        <?php echo $descripcionKari; ?>
-                    </p>
-              </div>
-            </div>
+                        <div class="texto">
+                            <h3><?php echo $trCaro; ?></h3>
+                            <h4><?php echo $profesionCaro; ?></h4>
+                            <p>
+                                <?php echo $descripcionCaro; ?>
+                            </p>
+                        </div>
 
-            </div>
+                        <!-- modal -->
+                        <div class="verMas">
+                            <div id="caro" class="modal">
+                                <h4><?php echo $trCaro;; ?></h4>
+                                <p>
+                                    <?php echo $descripcionCaro; ?>
+                                 </p>
+                            </div>
+                            <p><a href="#caro" rel="modal:open"><?php echo $verMas; ?></a></p>
+                        </div>
+
+                    </div>
+
+                    <div class="persona">
+                        <div class="foto">
+                            <img src="img/karina.jpg" alt="Integrante">
+                        </div>
+                        <div class="texto">
+                                <h3><?php echo $trKari; ?></h3>
+                                <h4><?php echo $profesionKari; ?></h4>
+                                <p>
+                                    <?php echo $descripcionKari; ?>
+                                </p>
+                        </div>
+                        <!-- modal -->
+                        <div class="verMas">
+                            <div id="karina" class="modal">
+                                <h4><?php echo $trKari;; ?></h4>
+                                <p>
+                                    <?php echo $descripcionKari; ?>
+                                 </p>
+                            </div>
+                            <p><a href="#karina" rel="modal:open"><?php echo $verMas; ?></a></p>
+                        </div>
+                    </div>
+
+                    </div>
             </div>
         </section>
 
@@ -389,13 +412,13 @@
 
                                 <!-- modal -->
                                 <div class="verMas">
-                                <div id="pet" class="modal">
+                                    <div id="pet" class="modal">
                                     <h4><?php echo $petFood; ?></h4>
                                     <p>
                                         <?php echo $textoPet; ?>
                                     </p>
-                                </div>
-                                <p><a href="#pet" rel="modal:open"><?php echo $verMas; ?></a></p>
+                                    </div>
+                                    <p><a href="#pet" rel="modal:open"><?php echo $verMas; ?></a></p>
                                 </div>
 
                             </div>
@@ -408,7 +431,7 @@
                                     <?php echo $textoTorres ;?>
                                 </p>
 
-                                <img src="img/clientes/PetTorres.jpg" alt="">
+                                <img src="img/clientes/pet.png" alt="">
 
                                 <!-- modal -->
                                 <div class="verMas">
@@ -428,7 +451,7 @@
                                 <h4><?php echo $geet?></h4>
                                 <p><?php echo $textoGeet; ?></p>
 
-                                <img src="img/clientes/Geet.jpg" alt="">
+                                <!-- <img src="img/clientes/Geet.jpg" alt=""> -->
 
                                 <!-- modal -->
                                 <div class="verMas">
@@ -520,37 +543,40 @@
 
 
 
-      <!-- pie de pagina -->
-    <footer>
-      <div class="copy">
-        <p><?php echo $miembro; ?></p>
-      </div>
-      <div class="footer-miembro-de">
-      <div class="miembro">
-          <img src="img/logos/pleca.png" alt="">
-        </div>
-        <div class="miembro">
-          <img src="img/logos/ata.png" alt="">
-        </div>
-        <div class="miembro">
-          <img src="img\logos\logo_aati_color.svg" alt="">
-        </div>
-        <div class="miembro">
-          <img src="img\logos\proz-logo.png" alt="">
-        </div>
-        <div class="miembro">
-          <img src="img\logos\sdl.png" alt="">
-        </div>
-      </div>
-      <div class="derechos">
-        <p>&copy;<?php echo $derechos; ?></p>
-      </div>
-    </footer>
+      
+    
 
 
 
 
     </section>
+
+    <!-- pie de pagina -->
+    <footer>
+      <div class="copy">
+        <p><?php echo $miembro; ?></p>
+      </div>
+      <div class="footer-miembro-de">
+            <div class="miembro">
+                <img src="img/logos/pleca.png" alt="">
+            </div>
+            <div class="miembro">
+                <img src="img/logos/ata.png" alt="">
+            </div>
+            <div class="miembro">
+                <img src="img\logos\logo_aati_color.svg" alt="">
+            </div>
+            <div class="miembro">
+                <img src="img\logos\proz-logo.png" alt="">
+            </div>
+            <div class="miembro">
+                <img src="img\logos\sdl.png" alt="">
+            </div>
+        </div>
+      <div class="derechos">
+        <p>&copy;<?php echo $derechos; ?></p>
+      </div>
+    </footer>
 
     
     
@@ -577,6 +603,7 @@
         $('#modal').modal();
       });
   </script>
+  <script src="js/mostrarEquipo.js"></script>
   <!-- swal -->
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   
@@ -584,7 +611,7 @@
   <script src="plugins\masonry.pkgd.min.js"></script>
   <script src="js/masonry.js"></script>
 
-  <!-- <script src="js/banner.js"></script> -->
+  <script src="js/banner.js"></script>
   <script type="text/javascript" src="js/prefix.min.js"></script>
   <script></script>
     

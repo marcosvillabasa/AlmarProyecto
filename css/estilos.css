@@ -471,7 +471,13 @@
   .main .equipo .contenedor .titulo-section{
     box-shadow: 5px 5px 1px rgba(0,0,0,.2);
   }
-  
+  .main .equipo .contenedor .integrantes .persona .verMas p > a{
+    
+    text-decoration: none;
+    display: none;
+  }
+
+
   /* -------clientes---------- */
   .main .contenedor-clientes{
     background: #e9e9e9;
@@ -608,7 +614,7 @@
   
   /* ------pie de pagina----- */
   footer{
-    background: #f3fafa;
+    background: #F3FAFA;
     padding: 54px 0;
     text-align: center;
   }
@@ -620,20 +626,7 @@
     margin-bottom: 15px;
     border-bottom: 1px solid #e4e4e4;
   }
-  footer .footer-miembro-de a{
-    display: inline-block;
-    padding: 0 10px;
-    color: #979797;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.875rem;
-    letter-spacing: 0;
-    line-height: 1.5em;
-    transition: all .3s ease;
-  }
-  footer .footer-sociales a:hover{
-    color: #0089e0;
-  }
+  
   footer .footer-miembro-de {
     display: flex;
     flex-direction: row;
@@ -647,13 +640,19 @@
   footer .footer-miembro-de .miembro img{
     width: 100%;
     filter: grayscale(100%);
+    opacity: 0.4;
+  }
+  footer .footer-miembro-de .miembro img:hover{
+    opacity: 0.8;
   }
   footer .derechos{
-    background: #566573;
-    height: 25px;
-    color: #EAECEE;
+    border-top: 1px solid #e4e4e4;
+    height: auto;
+    color: #979797;
     margin-bottom: 10px;
     font-size: 0.8rem;
+    
+    
   }
   
   /* ============================ */
@@ -813,10 +812,13 @@
       font-size: 2rem;
     }
     /* slider */
-    .main .contenedor-slider  .slider .tarjeta > p{
+    .main .contenedor-slider  .slider .tarjeta > p,
+    .main .equipo .contenedor .integrantes .persona .texto p
+    {
       display: none;
     }
-    .main .contenedor-slider  .slider .tarjeta .verMas p a{
+    .main .contenedor-slider  .slider .tarjeta .verMas p a
+    {
   
       display: inline-block;
       padding: 0 10px;
@@ -837,11 +839,34 @@
     }
 
     /* sobre nosotras */
+    .main .sobre-nosotros .contenedor{
+        padding: 2%;
+    }
+    .main .sobre-nosotros .contenedor .titulo-section{
+        margin-top: 30px;
+    }
     .main .sobre-nosotros .contenedor .texto-sobre-nosotros{
       text-align: left;
     }
     footer .footer-miembro-de .miembro{
       width: 30%;
     }
+
+    /* equipo */
+    .main .equipo .contenedor .integrantes .persona .verMas p > a{
+        display: inline-block;
+        padding: 0 10px;
+        color: #0089E0;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 1rem;
+        letter-spacing: 0;
+        line-height: 1.5em;
+        transition: all .3s ease;
+        border: 1px solid #0089E0;
+        border-radius: 3px;  
+    }
+    
+
   }
   
