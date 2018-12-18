@@ -551,7 +551,7 @@
             </div>
         </div>
       <div class="derechos">
-        <p>&copy;<?php echo $derechos; ?></p>
+        <p>&copy;<?php echo $derechos; ?> <script>document.write(new Date().getFullYear());</script></p>
       </div>
     </footer>
 
