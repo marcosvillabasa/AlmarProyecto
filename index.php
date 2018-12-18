@@ -242,14 +242,14 @@
                         <div class="tarjeta">
                             <img src="img/apreton-de-manos.svg" alt="">
                             <h4><?php echo $compromiso; ?></h4>
-                            <p><?php echo $textoCompromiso; ?> del cliente, desde el inicio, en su primer contacto, hasta la instancia de publicación. La dedicación, la previsión y la proactividad está en nuestro ADN. Traducimos con pasión, comprensión y responsabilidad. </p>
+                            <p><?php echo $textoCompromiso; ?></p>
 
                             <!-- modal -->
                             <div class="verMas">
                             <div id="com" class="modal">
                                 <h4><?php echo $compromiso; ?></h4>
                                 <p>
-                                <?php echo $textoCompromiso; ?> del cliente, desde el inicio, en su primer contacto, hasta la instancia de publicación. La dedicación, la previsión y la proactividad está en nuestro ADN. Traducimos con pasión, comprensión y responsabilidad.
+                                <?php echo $textoCompromiso; ?>
                                 </p>
                             </div>
                             <p><a href="#com" rel="modal:open"><?php echo $verMas; ?></a></p>
@@ -308,21 +308,11 @@
                         <div class="texto">
                             <h3><?php echo $trCaro; ?></h3>
                             <h4><?php echo $profesionCaro; ?></h4>
-                            <p>
+                            <p id="efectoCaro">
                                 <?php echo $descripcionCaro; ?>
                             </p>
                         </div>
-
-                        <!-- modal -->
-                        <div class="verMas">
-                            <div id="caro" class="modal">
-                                <h4><?php echo $trCaro;; ?></h4>
-                                <p>
-                                    <?php echo $descripcionCaro; ?>
-                                 </p>
-                            </div>
-                            <p><a href="#caro" rel="modal:open"><?php echo $verMas; ?></a></p>
-                        </div>
+                        <p><a id="botonCaro"><?php echo $verMas; ?></a></p>
 
                     </div>
 
@@ -333,20 +323,12 @@
                         <div class="texto">
                                 <h3><?php echo $trKari; ?></h3>
                                 <h4><?php echo $profesionKari; ?></h4>
-                                <p>
+                                <p id="efectoKari">
                                     <?php echo $descripcionKari; ?>
                                 </p>
                         </div>
-                        <!-- modal -->
-                        <div class="verMas">
-                            <div id="karina" class="modal">
-                                <h4><?php echo $trKari;; ?></h4>
-                                <p>
-                                    <?php echo $descripcionKari; ?>
-                                 </p>
-                            </div>
-                            <p><a href="#karina" rel="modal:open"><?php echo $verMas; ?></a></p>
-                        </div>
+                        <p><a id="botonKari"><?php echo $verMas; ?></a></p>
+                        
                     </div>
 
                     </div>
@@ -600,7 +582,7 @@
   </script>
   
   
-
+  <script src="js/efectos.js"></script>
   <script src="js/banner.js"></script>
   <script type="text/javascript" src="js/prefix.min.js"></script>
   <script></script>

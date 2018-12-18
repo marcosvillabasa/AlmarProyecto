@@ -21,7 +21,9 @@
 
     //servicios
     $traduccion="Traducción";
-    $textoTraduccion="Nos especializamos en traducciones técnicas, científicas y literarias, del y al Inglés, con el mayor, precisión y respaldo para que tu producto sea tan bueno como el original. ";
+    $textoTraduccion="Nos especializamos en traducciones técnicas, científicas y literarias, del y al
+    Inglés, con el mayor compromiso, precisión y respaldo para que tu producto
+    sea tan bueno como el original.";
 
     $edicion="Edición y corrección";
     $textoEdicion="Nos aseguramos de que tus documentos no posean errores morfosintácticos, gramaticales ni semánticos, para que estén a la altura de tu negocio y superen la competencia, tanto en el idioma inglés como en español. ";
@@ -81,7 +83,7 @@
 
     $trCaro="Tr. Carolina Álvarez";
     $profesionCaro="Traductora";
-    $descripcionCaro="Traductora técnica científica y literaria, especialista en la traducción técnica, específicamente en Ingeniería Civil, y en la traducción científica, en las ramas de la medicina (oncología, patentes, farmacia, ensayos clínicos). Avanzadas competencias informáticas en diseño y en herramientas de traducción para el diseño, el formato y la corrección de documentos en una amplia gama de tipos de archivos. Amplio manejo de herramientas informáticas, y el uso avanzado de herramientas de traducción, desde glosarios, bases terminológicas y programas asistidos de traducción, certificación oficial de SDL Trados Studio 2017 en Post Edition Machine Translation, brindando servicios para agencias en textos gestionados a través de motores automatizados.";
+    $descripcionCaro="Traductora técnica científica y literaria, especialista en la traducción técnica, específicamente en Ingeniería Civil, y en la traducción científica, en las ramas de la medicina (oncología, patentes, farmacia, ensayos clínicos). Avanzadas competencias informáticas en diseño y en herramientas de traducción para el diseño, el formato y la corrección de documentos en una amplia gama de tipos de archivos. Amplio manejo de herramientas informáticas y el uso avanzado de herramientas de traducción, desde glosarios, bases terminológicas y programas asistidos de traducción, certificación oficial de SDL Trados Studio 2017 en Post Edition Machine Translation, brindando servicios para agencias en textos gestionados a través de motores automatizados.";
 
     $trKari="Tr. Karina Marchini";
     $profesionKari="Traductora y Profesora de inglés";

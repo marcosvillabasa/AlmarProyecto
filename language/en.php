@@ -43,7 +43,7 @@
     //nuestros valores
     $titNuestrosValores = "OUR VALUES";
 
-    $verMas = "SEE MORE";
+    $verMas = "See More";
 
     $titEficiencia = "EFFICACY";
     $textoEficiencia = "We focus on only one language pair and we are highly skilled in certain fields,
@@ -53,7 +53,7 @@
     $calidadHumana = "Human Quality";
     $textoCalidadHumana ="Our aim is to guarantee our clients legible texts for the target reader, so we
     reinforce our effort in each assingment via a personalized service, with a
-    continuous education and profesional especialisation which can guarantee
+    continuous education and profesionals especialisation which can guarantee
     accuracy and quality.";
 
     $flexibilidad = "FLEXIBILITY";
