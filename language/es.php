@@ -83,11 +83,11 @@
 
     $trCaro="Tr. Carolina Álvarez";
     $profesionCaro="Traductora";
-    $descripcionCaro="Traductora técnica científica y literaria, especialista en la traducción técnica, específicamente en Ingeniería Civil, y en la traducción científica, en las ramas de la medicina (oncología, patentes, farmacia, ensayos clínicos). Avanzadas competencias informáticas en diseño y en herramientas de traducción para el diseño, el formato y la corrección de documentos en una amplia gama de tipos de archivos. Amplio manejo de herramientas informáticas y el uso avanzado de herramientas de traducción, desde glosarios, bases terminológicas y programas asistidos de traducción, certificación oficial de SDL Trados Studio 2017 en Post Edition Machine Translation, brindando servicios para agencias en textos gestionados a través de motores automatizados.";
+    $descripcionCaro="Traductora técnica científica y literaria, especialista en la traducción técnica, específicamente en ingeniería civil, y en la traducción científica, en la rama de la medicina (oncología, patentes, farmacia, ensayos clínicos). Avanzadas competencias informáticas en diseño y herramientas de traducción, con certificación oficial de SDL Trados Studio 2017 en Post Edition Machine Translation.";
 
     $trKari="Tr. Karina Marchini";
     $profesionKari="Traductora y Profesora de inglés";
-    $descripcionKari="Profesora de inglés, traductora técnica científica y literaria, especialista en textos científicos, en la rama de la medicina específicamente en nutrición, medicina del deporte, subtitulado y adaptaciones de traducciones para doblaje y voice-over, tanto en el español como en el inglés. Amplia experiencia en traducciones literarias, poesía, novelas, canciones, blogs, corrección de documentos en inglés y en español en la rama de la psicología.";
+    $descripcionKari="Profesora de inglés, traductora técnica científica y literaria, especialista en textos científicos, en la rama de la medicina específicamente en nutrición y medicina del deporte, asi como en subtitulado y adaptaciones de traducciones para doblaje y voice-over, tanto en el español como en el inglés. Amplia experiencia en traducciones literarias, poesía, novelas, canciones, blogs, corrección de documentos en inglés y en español en la rama de la psicología.";
 
     //contacto
     $titProyecto = "Cuéntanos sobre tu proyecto";
