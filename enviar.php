@@ -23,7 +23,7 @@ if (!empty($mensaje)) {
 }
 
 //datos para el correo
-$destinatario = "almar@almarservicios.com";
+$destinatario = " info@almarservicios.com";
 $asunto = "Contacto desde la WEB";
 
 $mensajePreparado = "De: $nommbre \n";

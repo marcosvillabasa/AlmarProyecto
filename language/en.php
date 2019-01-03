@@ -106,6 +106,8 @@
     $placeCorreo="Email";
     $placeMensaje="Tell us about your project";
 
+    $mensajeContacto="Escribimos a info@almarservicios.com";
+
     $errorCorreo="Please write your email";
     $errorNombre="Please write your name";
     $errorConsulta="Please enter your query";
