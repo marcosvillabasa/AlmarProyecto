@@ -594,6 +594,18 @@
     background-image: url("../img/formulario.jpg");
     background-size: cover;
   }
+
+  .main .contacto .contenedor-formulario .formulario form a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(31, 97, 141);
+    margin-top: 20px;
+    font-size: 0.875rem;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    transition: all .3s ease;
+  }
+
   
   /* validaciones */
   .main .contacto .contenedor-formulario .formulario form .error{

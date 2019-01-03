@@ -360,6 +360,10 @@
                     <div>
                     <input type="submit" name="Enviar" value="<?php echo $enviar;  ?>">
                     </div>
+
+                    <div>
+                        <a href="mailto:info@almarservicios.com"><?php echo $mensajeContacto; ?></a>
+                    </div>
                 </form>
 
                 </div>
